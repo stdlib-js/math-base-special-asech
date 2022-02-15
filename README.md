@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2018 The Stdlib Authors.
+Copyright (c) 2022 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# acosh
+# asech
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -50,7 +50,7 @@ var asech = require( '@stdlib/math-base-special-asech' );
 
 #### asech( x )
 
-Computes the [hyperbolic arcsecant][hyperbolic-arcsecant] of a `number` (in radians).
+Computes the [hyperbolic arcsecant][hyperbolic-arcsecant] of `x`.
 
 ```javascript
 var v = asech( 1.0 );
@@ -59,14 +59,17 @@ var v = asech( 1.0 );
 v = asech( 0.5 );
 // returns ~1.317
 
-v = asech( 2.0 );
-// returns NaN
+v = asech( 0.0 );
+// returns Infinity
 ```
 
-The domain of `x` is restricted to `(0, 1]`
+The domain of `x` is restricted to the interval `[0, 1]`. For `x` outside of this interval, the function returns `NaN`.
 
 ```javascript
-var v = asech( 0.0 );
+var v = asech( -1.0 );
+// returns NaN
+
+v = asech( 2.0 );
 // returns NaN
 ```
 
@@ -172,7 +175,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-asech/main/LICENSE
 
-[hyperbolic-arccosine]: https://en.wikipedia.org/wiki/Inverse_hyperbolic_function
+[hyperbolic-arcsecant]: https://en.wikipedia.org/wiki/Inverse_hyperbolic_function
 
 </section>
 

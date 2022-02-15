@@ -44,6 +44,7 @@
     "@stdlib/array-base-linspace": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/constants-float64-eps": "^0.0.x",
+    "@stdlib/constants-float64-pinf": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/math-base-special-abs": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
@@ -71,7 +72,6 @@
     "stdmath",
     "mathematics",
     "math",
-    "math.asech",
     "asech",
     "hyperbolic",
     "inverse",
@@ -79,12 +79,11 @@
     "cos",
     "arc",
     "arccosine",
+    "secant",
+    "arcsecant",
     "trig",
     "trigonometry",
-    "radians",
-    "angle",
-    "polyfill",
-    "ponyfill"
+    "angle"
   ],
   "funding": {
     "type": "patreon",
