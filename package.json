@@ -1,0 +1,37 @@
+{
+  "name": "@stdlib/math-base-special-asech",
+  "version": "0.0.0",
+  "description": "Compute the hyperbolic arcsecant of a number.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-base-special-asech.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "mathematics",
+    "math",
+    "asech",
+    "hyperbolic",
+    "inverse",
+    "cosine",
+    "cos",
+    "arc",
+    "arccosine",
+    "secant",
+    "arcsecant",
+    "trig",
+    "trigonometry",
+    "angle"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
