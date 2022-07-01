@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.asech;
+})();
 })();
 </script>
 ```
@@ -101,6 +103,7 @@ v = asech( 2.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x = linspace( 0.1, 1.0, 100 );
 
@@ -109,6 +112,7 @@ for ( i = 0; i < x.length; i++ ) {
     console.log( asech( x[ i ] ) );
 }
 
+})();
 })();
 </script>
 </body>
