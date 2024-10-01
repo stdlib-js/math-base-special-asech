@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-01)
+## Unreleased (2024-10-01)
 
 <section class="commits">
 
@@ -75,7 +75,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
--   Pranav
+-   Pranav Goswami
 -   Rejoan Sardar
 
 </section>
