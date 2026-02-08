@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@deno/mod.js';
+import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@v0.3.1-deno/mod.js';
 ```
 
 #### asech( x )
@@ -83,7 +83,7 @@ v = asech( 2.0 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@deno/mod.js';
+import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@v0.3.1-deno/mod.js';
 
 var x = uniform( 100, 0.1, 1.0, {
     'dtype': 'float64'
