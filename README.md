@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@esm/index.mjs';
+import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@v0.3.1-esm/index.mjs';
 ```
 
 #### asech( x )
@@ -88,7 +88,7 @@ v = asech( 2.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@esm/index.mjs';
+import asech from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-asech@v0.3.1-esm/index.mjs';
 
 var x = uniform( 100, 0.1, 1.0, {
     'dtype': 'float64'
