@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-25)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`b7feba2`](https://github.com/stdlib-js/stdlib/commit/b7feba2d63f20199707be94ffa1284538e0c4395) - **docs:** fix C example variable declaration [(#11127)](https://github.com/stdlib-js/stdlib/pull/11127) _(by anee3)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   anee3
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
