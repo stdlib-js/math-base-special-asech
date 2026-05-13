@@ -209,7 +209,6 @@ int main( void ) {
 
 -   <span class="package-name">[`@stdlib/math-base/special/acosh`][@stdlib/math/base/special/acosh]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arccosine of a double-precision floating-point number.</span>
 -   <span class="package-name">[`@stdlib/math-base/special/asec`][@stdlib/math/base/special/asec]</span><span class="delimiter">: </span><span class="description">compute the inverse (arc) secant of a number.</span>
--   <span class="package-name">[`@stdlib/math-base/special/asech`][@stdlib/math/base/special/asech]</span><span class="delimiter">: </span><span class="description">compute the hyperbolic arcsecant of a number.</span>
 -   <span class="package-name">[`@stdlib/math-base/special/acoth`][@stdlib/math/base/special/acoth]</span><span class="delimiter">: </span><span class="description">compute the inverse hyperbolic cotangent.</span>
 
 </section>
@@ -295,8 +294,6 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/acosh]: https://github.com/stdlib-js/math-base-special-acosh
 
 [@stdlib/math/base/special/asec]: https://github.com/stdlib-js/math-base-special-asec
-
-[@stdlib/math/base/special/asech]: https://github.com/stdlib-js/math-base-special-asech
 
 [@stdlib/math/base/special/acoth]: https://github.com/stdlib-js/math-base-special-acoth
 
