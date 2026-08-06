@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-25)
+## Unreleased (2026-08-06)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`375d007`](https://github.com/stdlib-js/stdlib/commit/375d007ef1770cb673e04ea22ce1f8c933eb2e5d) - **test:** migrate `math/base/special/asech` to ULP-based assertions [(#13961)](https://github.com/stdlib-js/stdlib/pull/13961) _(by Philipp Burckhardt, Athan Reines)_
 -   [`508cffa`](https://github.com/stdlib-js/stdlib/commit/508cffaabd50a383412af306e36e4f2523cd7fa2) - **docs:** update related packages sections [(#12106)](https://github.com/stdlib-js/stdlib/pull/12106) _(by stdlib-bot)_
 -   [`9229dd7`](https://github.com/stdlib-js/stdlib/commit/9229dd78fa82c5f863dbc51a9588314d53a97c44) - **bench:** refactor to use string interpolation in `math/base/special` [(#11386)](https://github.com/stdlib-js/stdlib/pull/11386) _(by Karan Anand)_
 -   [`b7feba2`](https://github.com/stdlib-js/stdlib/commit/b7feba2d63f20199707be94ffa1284538e0c4395) - **docs:** fix C example variable declaration [(#11127)](https://github.com/stdlib-js/stdlib/pull/11127) _(by anee3)_
@@ -26,9 +27,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 -   anee3
 
 </section>
